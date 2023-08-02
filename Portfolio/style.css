@@ -1,0 +1,314 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 65%;
+    overflow: hidden;
+}
+
+body {
+    background-color: rgba(118, 209, 227, 0.503);
+    overflow: hidden;
+    padding-left: 25rem;
+}
+
+section {
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.btn {
+    padding: 1rem 1rem;
+    background: #03c2f24a;
+    color: black;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    border-radius: 3rem;
+}
+
+.btn i {
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    background: rgba(0, 183, 255, 0.697);
+}
+
+.btnn {
+    padding: 1rem 1rem;
+    background: #03c2f24a;
+    color: black;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    border-radius: 3rem;
+}
+
+.btnn i {
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+}
+
+.btnn:hover {
+    background: rgba(0, 183, 255, 0.697);
+}
+
+.heading {
+    text-align: center;
+    margin: .6rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: .1rem solid #fff;
+    color: black;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 30rem;
+    background: rgba(81, 193, 234, 0.859);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+.user img {
+    height: 15rem;
+    width: 12rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1;
+    border: .3rem solid black;
+}
+
+.user .name {
+    font-size: 3rem;
+    color: black;
+}
+
+.user .post {
+    font-size: 2rem;
+    color: black;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 1rem 3rem;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 1rem;
+    margin: 2.5rem 0;
+    background: #eeeeee4a;
+    color: rgb(15, 21, 26);
+    font-size: 1.5rem;
+    border-radius: 4rem;
+}
+
+.navbar ul li a:hover {
+    background-color: rgba(49, 119, 181, 0.603);
+}
+
+.fa-bars {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    background-color: rgba(0, 204, 255, 0.273);
+    color: black;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+
+    flex-flow: column;
+    padding: 0 15rem;
+}
+
+.home h3 {
+    font-size: 3rem;
+    color: black;
+}
+
+.home h1 {
+    font-size: 2.5rem;
+    color: black;
+    color: rgb(46, 55, 181);
+}
+
+.home p {
+    font-size: 2rem;
+    color: black;
+    padding: 1rem 0;
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.row .info {
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+
+.info h3 {
+    font-size: 2rem;
+    color: rgb(1, 12, 11);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.row .counter {
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.counter .up {
+    font-size: 3rem;
+    color: rgba(1, 9, 9, 0.674);
+    font-weight: bold;
+}
+
+.info h3 span {
+    color: black;
+    padding: 0 .5rem;
+    font-weight: bold;
+}
+
+.counter .box {
+    width: 20rem;
+    background: #e6fdff;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    border: .2rem solid black;
+    border-radius: 2rem;
+}
+
+.counter .box span {
+    font-size: 2rem;
+    color: black;
+
+}
+
+.counter .box:hover {
+    background-color: rgb(156, 206, 206);
+    box-shadow: 6rem;
+    border-radius: 1rem;
+}
+
+.qualification .boxcontaineer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 6rem;
+}
+
+.qualification .boxcontaineer .box {
+    width: 20rem;
+    margin: 3rem 2rem;
+    padding-left: 1rem;
+    border-left: .3rem solid black;
+    position: relative;
+}
+
+.boxcontaineer .box span {
+    font-size: 2rem;
+    background-color: #e6fdff;
+    color: black;
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+}
+
+.boxcontaineer .box h3 {
+    font-size: 2rem;
+    color: rgb(25, 22, 22);
+    padding-top: 1rem;
+}
+
+.boxcontaineer .box p {
+    font-size: 1.4rem;
+    color: rgba(6, 18, 21, 0.681);
+    padding-top: 1rem 0;
+}
+
+.projects .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 0;
+}
+
+.projects .content .box {
+    height: 24rem;
+    width: 35rem;
+    border-radius: 1rem;
+    margin: 3rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.content .box video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.contact .row .contents {
+    flex: 1 1 30rem;
+    padding: 6rem;
+    padding-bottom: 0;
+}
+
+.contact .row .contents h3:hover {
+    transform: scale(1.1);
+}
+
+.content .box span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(20, 52, 58);
+}
